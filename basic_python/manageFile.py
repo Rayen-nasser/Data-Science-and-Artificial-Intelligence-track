@@ -1,0 +1,6 @@
+file = open("text.txt", "a")
+fileR = open("text.txt", "r")
+file.write("\nhello welcome to python 123")
+print(fileR.readlines(3))
+file.close()
+fileR.close()
